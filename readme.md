@@ -16,7 +16,7 @@ Domain centric architecture is a new way to design the morden world entreprise a
 
 ![avatar](./doc/aggregates2.png)
 
-There are two aggregate roots in jivejdon: FormThread and ForumMessage(Root Message).
+There are two aggregate roots in jivejdon: ForumThread and ForumMessage(Root Message).
 
 [com.jdon.jivejdon.domain.model.ForumMessage](https://github.com/banq/jivejdon/blob/master/src/main/java/com/jdon/jivejdon/model/ForumMessage.java) is a rich model, no "public" setter method, all setter methods are "private":
 
